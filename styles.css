@@ -1,0 +1,71 @@
+
+
+.margin-top-80 {
+  margin-top: 80px;
+}
+
+.table {
+  background-color:#a3b7c9;
+  border-color:  #5bc2c2;
+}
+
+body {
+  background: linear-gradient( rgb(62, 93, 151), darkgray);
+}
+
+h1 {
+  font-size: 80px;
+  font-style: bold
+  font-family: 'Candara', Helvetica, sans-serif;
+  color: white;
+}
+
+
+.lead {
+  font-size: 25px;
+  font-family: 'Candara', Helvetica, sans-serif; 
+  color: whitesmoke;
+}
+
+.navbar {
+  padding: 10px;
+}
+
+.header {
+  height: 200px;
+  padding-top: 20px;
+  background: #262144;
+}
+
+
+.btn-primary {
+  background-color: rgb(62, 93, 151) ;
+  border-color:  #5bc2c2;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  padding: 20px;
+  margin: 20px;
+  vertical-align: top;
+}
+
+
+
+@media (max-width: 480px) {
+  .navbar li {
+    padding: 10px;
+  }
+
+  .navbar ul {
+    visibility: hidden;
+  }
+
+  #nav-select {
+    visibility: visible;
+  }
+}
